@@ -1,0 +1,16 @@
+
+#content .social-list2 li a:hover:after{
+    display: none;
+}
+#header .search-button:after{
+    display: none;
+}
+#header .search-button:hover:after{
+    display: block;
+}
+#header .search-button.active:after{
+    display: block;
+}
+#header #search{
+    right: 80px;
+}

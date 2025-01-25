@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/touchTouch.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/touchTouch.jquery.js"></script>
+            <script>
+                $(function(){
+                    $('a[data-gal]').touchTouch();
+                });
+            </script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="js/wow/wow.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($('html').hasClass('desktop')) {
+                new WOW().init();
+            }
+        });
+    </script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <html class="ie8">
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+        <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0"
+             usemap="#Map" longdesc="http://die6.frontcube.com"/>
+        <map name="Map" id="Map">
+            <area shape="rect" coords="496,201,604,329"
+                  href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank"
+                  alt="Download Interent Explorer"/>
+            <area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank"
+                  alt="Download Apple Safari"/>
+            <area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank"
+                  alt="Download Opera"/>
+            <area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank"
+                  alt="Download Firefox"/>
+            <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank"
+                  alt="Download Google Chrome"/>
+        </map>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+
+<body>
+<div class="page">
+
+<!--========================================================
+                          HEADER
+=========================================================-->
+<header id="header" class="page2">
+    <div class="f__right f__none-479 logo-caption">
+        <h1>
+            <a href="index.html">Welding<span>CO.</span></a>
+        </h1>
+    </div>
+    <div class="clearfix"></div>
+
+    <div id="nav" class="menu-wrap">
+        <a id="navBtn" class="nav-btn fa fa-bars" href="#"></a>
+        <nav class="header-menu">
+            <div class="logo">
+                <a href="index.html">Welding<span>CO.</span></a>
+            </div>
+            <ul class="sf-menu" id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                    <ul>
+                        <li>
+                            <a href="#">Quisque nulla</a>
+                        </li>
+                        <li>
+                            <a href="#">Vestibulum libero nis</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Porta vel scelerisque eget</a>
+                                </li>
+                                <li>
+                                    <a href="#">Malesuada at neque</a>
+                                </li>
+                                <li>
+                                    <a href="#">Vivamus eget nibh</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pellentesque</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="index-1.html">About</a>
+                </li>
+                <li>
+                    <a href="index-2.html">Services</a>
+                </li>
+                <li>
+                    <a href="index-3.html">Team</a>
+                </li>
+                <li class="current">
+                    <a href="index-4.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="index-5.html">Contact</a>
+                </li>
+                <li>
+                    <a href="index-6.html">Single project</a>
+                </li>
+                <li>
+                    <a href="index-7.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+<!--========================================================
+                          CONTENT
+=========================================================-->
+<section id="content">
+    <div class="wrapper4 wrapper4__inset1">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="heading">
+                        <h3>portfolio</h3>
+
+                        <p>Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem.
+                            Duis ultricies pharetra magna. </p>
+
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="filters" class="button-group">
+            <a class="button active" data-filter="*" href="#">show all</a>
+            <a class="button" data-filter=".epsum" href="#">epsum</a>
+            <a class="button" data-filter=".factorial" href="#">factorial</a>
+            <a class="button" data-filter=".deposit" href="#">deposit</a>
+            <a class="button" data-filter=".escorol" href="#">escorol</a>
+        </div>
+
+        <div class="isotope">
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img1_original.jpg">
+                    <img src="./images/page5-img1.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img2_original.jpg">
+                    <img src="./images/page5-img2.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img3_original.jpg">
+                    <img src="./images/page5-img3.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img4_original.jpg">
+                    <img src="./images/page5-img4.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit escorol" data-category="deposit">
+                <a data-gal href="./images/page5-img5_original.jpg">
+                    <img src="./images/page5-img5.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img6_original.jpg">
+                    <img src="./images/page5-img6.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img7_original.jpg">
+                    <img src="./images/page5-img7.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="epsum">
+                <a data-gal href="./images/page5-img8_original.jpg">
+                    <img src="./images/page5-img8.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img9_original.jpg">
+                    <img src="./images/page5-img9.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img10_original.jpg">
+                    <img src="./images/page5-img10.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img11_original.jpg">
+                    <img src="./images/page5-img11.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img12_original.jpg">
+                    <img src="./images/page5-img12.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img13_original.jpg">
+                    <img src="./images/page5-img13.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img14_original.jpg">
+                    <img src="./images/page5-img14.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img15_original.jpg">
+                    <img src="./images/page5-img15.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img16_original.jpg">
+                    <img src="./images/page5-img16.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit escorol" data-category="deposit">
+                <a data-gal href="./images/page5-img17_original.jpg">
+                    <img src="./images/page5-img17.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img18_original.jpg">
+                    <img src="./images/page5-img18.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img19_original.jpg">
+                    <img src="./images/page5-img19.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="epsum">
+                <a data-gal href="./images/page5-img20_original.jpg">
+                    <img src="./images/page5-img20.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img21_original.jpg">
+                    <img src="./images/page5-img21.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img22_original.jpg">
+                    <img src="./images/page5-img22.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img23_original.jpg">
+                    <img src="./images/page5-img23.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img24_original.jpg">
+                    <img src="./images/page5-img24.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img25_original.jpg">
+                    <img src="./images/page5-img25.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img26_original.jpg">
+                    <img src="./images/page5-img26.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img27_original.jpg">
+                    <img src="./images/page5-img27.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img28_original.jpg">
+                    <img src="./images/page5-img28.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit escorol" data-category="deposit">
+                <a data-gal href="./images/page5-img29_original.jpg">
+                    <img src="./images/page5-img29.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img30_original.jpg">
+                    <img src="./images/page5-img30.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img31_original.jpg">
+                    <img src="./images/page5-img31.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="epsum">
+                <a data-gal href="./images/page5-img32_original.jpg">
+                    <img src="./images/page5-img32.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img33_original.jpg">
+                    <img src="./images/page5-img33.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img34_original.jpg">
+                    <img src="./images/page5-img34.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img35_original.jpg">
+                    <img src="./images/page5-img35.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img36_original.jpg">
+                    <img src="./images/page5-img36.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item epsum" data-category="epsum">
+                <a data-gal href="./images/page5-img37_original.jpg">
+                    <img src="./images/page5-img37.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="epsum">
+                <a data-gal href="./images/page5-img38_original.jpg">
+                    <img src="./images/page5-img38.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item deposit" data-category="deposit">
+                <a data-gal href="./images/page5-img39_original.jpg">
+                    <img src="./images/page5-img39.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img40_original.jpg">
+                    <img src="./images/page5-img40.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item escorol" data-category="escorol">
+                <a data-gal href="./images/page5-img41_originall.jpg">
+                    <img src="./images/page5-img41.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+            <div class="element-item factorial" data-category="factorial">
+                <a data-gal href="./images/page5-img42_original.jpg">
+                    <img src="./images/page5-img42.jpg" alt=""/>
+                    <span class="overlay-gallery"></span>
+
+                    <p>Lorem ipsumor sit amet, consectetuer adipiscing elit. Praesent vestib.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!--========================================================
+                          FOOTER
+=========================================================-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="grid_12">
+                <p class="copyright white">
+                    <span class="first">Welding Co.  </span><span>&copy;
+                    <span id="copyright-year"></span></span>
+                    <a href="index-8.html">Privacy policy</a>
+                    . Terms of use
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
